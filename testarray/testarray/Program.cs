@@ -24,9 +24,9 @@ namespace testarray
             twoarray[0] = array[2];
             twoarray[1] = array[1];
             twoarray[2] = array[0];
-            Console.WriteLine(twoarray[2]);
-            Console.WriteLine(twoarray[1]);
             Console.WriteLine(twoarray[0]);
+            Console.WriteLine(twoarray[1]);
+            Console.WriteLine(twoarray[2]);
         }
     }
 }
