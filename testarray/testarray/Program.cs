@@ -31,7 +31,7 @@ namespace testarray
             Console.WriteLine(twoarray[2]);
 
             Console.WriteLine("-----------------------------------------------------------");
-
+            // перебор чисел
             int[] tenarray = new int[10000];
             for (int a = 0; a < tenarray.Length; a++)
             {
@@ -43,6 +43,20 @@ namespace testarray
                 Console.Write(tenarray[a] + ",");
             }
             Console.Write(tenarray[tenarray.Length - 1] + "]");
+
+            Console.Write("-----------------------------------------------------------");
+            // четные числа
+            for (int a = 0; a < tenarray.Length; a++)
+            {
+                tenarray[a] = (a+1)* 2;
+            }
+            Console.Write("[");
+            for (int a = 0; a < tenarray.Length-1; a++)
+            {
+                Console.Write(tenarray[a] + ",");
+            }
+            Console.Write(tenarray[tenarray.Length -1] + "]");
+            // перестаовка элементов
         }
     }
 }
