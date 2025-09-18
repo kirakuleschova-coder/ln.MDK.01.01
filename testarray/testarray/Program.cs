@@ -19,7 +19,7 @@ namespace testarray
             Console.WriteLine(array[0]);
             Console.WriteLine(array[1]);
             Console.WriteLine(array[2]);
-
+            Console.WriteLine("---------------------");
             string[] twoarray = new string[3];
             twoarray[0] = array[2];
             twoarray[1] = array[1];
