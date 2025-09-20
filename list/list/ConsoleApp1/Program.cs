@@ -10,14 +10,20 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-            List<string> list = new List<string>();
-            Console.WriteLine("Исходный размер списка = " + list.Count);
-            list.Add("Маша");
-            list.Add("Кира");
-            list.Add("Ирина");
-            list.Add("Егор");
-            list.Add("Илья");
-            Console.WriteLine("Размер списка после добавления элементов = " + list.Count);
+            List<string> isxodlist = new List<string>();
+            Console.WriteLine("Исходный размер списка = " + isxodlist.Count);
+            isxodlist.Add("Маша");
+            isxodlist.Add("Кира");
+            isxodlist.Add("Ирина");
+            isxodlist.Add("Егор");
+            isxodlist.Add("Илья");
+            Console.WriteLine("Размер списка после добавления элементов = " + isxodlist.Count);
+            
+            List<string> filtrlist = new List<string>();
+            Console.WriteLine("Введите текст: ");
+            filtrlist.Add(Console.ReadLine()); 
+            Console.WriteLine("Вывод");
+
         }
     }
 }
