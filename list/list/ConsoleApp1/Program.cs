@@ -12,7 +12,12 @@ namespace ConsoleApp1
         {
             List<string> list = new List<string>();
             Console.WriteLine("Исходный размер списка = " + list.Count);
-
+            list.Add("Маша");
+            list.Add("Кира");
+            list.Add("Ирина");
+            list.Add("Егор");
+            list.Add("Илья");
+            Console.WriteLine("Размер списка после добавления элементов = " + list.Count);
         }
     }
 }
