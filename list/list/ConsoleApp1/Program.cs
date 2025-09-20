@@ -8,8 +8,11 @@ namespace ConsoleApp1
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            List<string> list = new List<string>();
+            Console.WriteLine("Исходный размер списка = " + list.Count);
+
         }
     }
 }
