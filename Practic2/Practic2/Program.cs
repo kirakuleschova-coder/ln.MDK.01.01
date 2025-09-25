@@ -20,6 +20,14 @@ namespace Practic2
             {
                 array[i] = Convert.ToInt32(Console.ReadLine());
             }
+            int[] array = { -3, 5, -2, 7, -4, 1, 0, -8 };
+            int product = 1;
+            bool hasNegative = false;
+            for (int i = 0; i < array.Length; i++)
+            {
+            
+            }
+
         }
     }
 }
