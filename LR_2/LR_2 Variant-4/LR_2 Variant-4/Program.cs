@@ -10,6 +10,7 @@ namespace LR_2_Variant_4
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
