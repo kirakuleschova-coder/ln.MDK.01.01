@@ -10,7 +10,8 @@ namespace Zadacha_1
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Введите количество чисел в массиве: ");
+            int n = int.Parse(Console.ReadLine());
         }
     }
 }
