@@ -25,8 +25,12 @@ namespace DictionaryUsing
             Words.Add(pronouns, new List<string>()
                                     {"Я", "Мы", "Они" });
 
-
+            Console.WriteLine("Ключи словаря: ");
             Console.WriteLine(String.Join(", ", Words.Keys));
+
+            List<string> NOUNS = Words[nouns];
+            Console.WriteLine("Существительные в словаре: ");
+            Console.WriteLine(String.Join(", ", NOUNS));
         }
     }
 }
