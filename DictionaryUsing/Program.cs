@@ -25,11 +25,8 @@ namespace DictionaryUsing
             Words.Add(pronouns, new List<string>()
                                     {"Я", "Мы", "Они" });
 
-            Console.WriteLine("Ключи словаря:");
-            foreach (string key in Words.Keys)
-            {
-                Console.WriteLine($"- {key}");
-            }
+
+            Console.WriteLine(String.Join(", ", Words.Keys));
         }
     }
 }
