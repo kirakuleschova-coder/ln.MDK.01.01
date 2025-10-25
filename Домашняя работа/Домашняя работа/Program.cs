@@ -8,9 +8,7 @@ namespace Домашняя_работа
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            enum DayOfWeek
+        enum DayOfWeek
         {
             Понедельник = 1,
             Вторник,
@@ -20,6 +18,9 @@ namespace Домашняя_работа
             Суббота,
             Воскресенье
         }
-    }
+        static void Main(string[] args)
+        {
+            
+        }
     }
 }
