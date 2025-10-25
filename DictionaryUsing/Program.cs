@@ -8,6 +8,9 @@ namespace DictionaryUsing
 {
     class Program
     {
+
+       
+
         static void Main(string[] args)
         {
             Dictionary<string, List<string>> Words = 
@@ -31,6 +34,13 @@ namespace DictionaryUsing
             List<string> NOUNS = Words[nouns];
             Console.WriteLine("Существительные в словаре: ");
             Console.WriteLine(String.Join(", ", NOUNS));
+
+            Console.Write("Введите, какой " +
+                "тип слов из словаря Вас интересует" +
+                "(Существительные, Глаголы, Местоимения): ");
+            string userTypeWords = Console.ReadLine();
+            int TypeWordsCount = Words[userTypeWords].Count;
+            Console.WriteLine($"В словаре {TypeWordsCount} слова данного типа");
         }
     }
 }
