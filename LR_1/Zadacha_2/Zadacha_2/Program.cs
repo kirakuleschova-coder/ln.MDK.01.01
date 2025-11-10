@@ -16,6 +16,14 @@ namespace Zadacha_2
             {
                 array[i] = random.Next(10, 10000);
             }
+            Console.WriteLine("Исходные данные: ");
+            Console.WriteLine("[" + string.Join(", ", array) + "]");
+            List<int> Summa = new List<int>();
+            for (int i = 0; i < array.Length - 2; i += 2)
+            {
+                int sum = array[i] + array[i + 2];
+                Summa.Add(sum);
+            }
         }
     }
 }
