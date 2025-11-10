@@ -24,6 +24,8 @@ namespace Zadacha_2
                 int sum = array[i] + array[i + 2];
                 Summa.Add(sum);
             }
+            Console.WriteLine("Результат: ");
+            Console.WriteLine("[" + string.Join(", ", Summa) + "]");
         }
     }
 }
